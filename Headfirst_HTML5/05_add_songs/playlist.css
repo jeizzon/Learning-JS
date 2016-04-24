@@ -1,0 +1,35 @@
+body {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+ul {
+	width: 320px;
+	list-style-position: inside;
+	list-style-type: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+
+}
+
+li {
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	padding: 20px 10px;
+}
+
+li:only-child {
+	border: 1px solid #d3d3d3;
+}
+
+li:first-child {
+	border-radius: 3px 3px 0 0;
+	border-top: 1px solid #d3d3d3;
+
+}
+
+li:last-child {
+	border-radius: 0 0 3px 3px;
+	border-bottom: 1px solid #d3d3d3;
+	border-top: none;
+}
